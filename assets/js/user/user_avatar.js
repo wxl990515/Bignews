@@ -52,9 +52,9 @@ $(function() {
         $.ajax({
             method: 'POST',
             url: '/my/update/avatar',
-            headers: {
-                Authorization: localStorage.getItem('token') || ''
-            },
+            // headers: {
+            //     Authorization: localStorage.getItem('token') || ''
+            // },
             data: {
                 avatar: dataURL
             },
